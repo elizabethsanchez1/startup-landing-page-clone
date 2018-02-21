@@ -5,27 +5,41 @@ html {
   box-sizing: inherit;
 }	
 body {
-    background-color: LightGray;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
 }
 ul {
 	list-style: none;
 }
 div {
     border: 1px solid Chocolate;
-
-.content {
-	padding: 0 0.938rem;
-	margin: 0 auto;
-	min-width: 37.5rem;
 }
 
+.content {
+	padding: 20px;
+	margin: 0 auto;
+	min-width: 600px;
+}
+ 
 /* Navigation Section */
+.content .logo {
+    margin-left: 400px;
+    width: 26px;
+}
+a {
+    text-decoration: none;
+}
+.top-navigation ul li a {
+     color: #838994;
+    
+}
+
 .top-navigation .links {
     float: right;
-    font-family: 'Roboto', sans-serif;
     color: #838994;
-    font-size: 16px;
-    margin-top: 25px;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-right: 155px;
     -webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
@@ -35,9 +49,26 @@ div {
 }
 .top-navigation .links .active {
     color: #4c5058;
-    font-weight: 500;
+    font-weight: 900;
 }
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+.container {
+    position: relative;
+}
+.centered {
+    position: absolute;
+    top: 293px;
+    left: 466px;
+    font-size: 60px;
+    color: white; 
+}
+.container p {
+    position: absolute;
+    top: 380px;
+    left: 460px;
+    color: white;
+    font-size: 28px;
 }
