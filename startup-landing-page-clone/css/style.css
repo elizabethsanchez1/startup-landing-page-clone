@@ -1,0 +1,113 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}	
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+ul {
+	list-style: none;
+}
+div {
+    border: 1px solid Grey;
+}
+
+.content {
+	padding: 20px;
+	margin: 0 auto;
+	min-width: 600px;
+}
+ 
+/* Navigation Section */
+.content .logo {
+    margin-left: 400px;
+    width: 26px;
+}
+a {
+    text-decoration: none;
+}
+.top-navigation ul li a {
+     color: #838994;
+    
+}
+
+.top-navigation .links {
+    float: right;
+    color: #838994;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-right: 155px;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+    list-style-type: none;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 900;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+.introduction {
+    background-image: url('../img/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 118% 110%;
+    height: 750px;
+    overflow: auto;
+}
+.introduction h1 {
+    margin-top: 215px;
+    font-size: 49px;
+}
+.introduction h3 {
+    margin-top: -20px;
+    font-size: 25px;
+    font-weight: normal;
+}
+.introduction h1, h3 {
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+.button {
+    position: absolute;
+    background-color: #f15a29;
+    border-style: none;
+    border-radius: 4px;
+    padding: 18px 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 22px;
+    top: 445px;
+    left: 605px;
+    color: white;
+    cursor: pointer;   
+}
+.button:hover {
+    background-color: orangered;    
+}
+.content h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: normal;
+    padding-top: 100px;
+    
+}
+.icons {
+    height: 150px;
+    width: 127px;
+    display: inline-block;
+}
+.caption {
+    font-size: 26px;
+}
+
+
