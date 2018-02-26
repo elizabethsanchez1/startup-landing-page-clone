@@ -11,43 +11,44 @@ body {
 ul {
 	list-style: none;
 }
-div {
-    border: 1px solid Grey;
-}
 
-.content {
-	padding: 20px;
-	margin: 0 auto;
-	min-width: 600px;
-}
  
 /* Navigation Section */
-.content .logo {
-    margin-left: 400px;
-    width: 26px;
+.top-navigation {
+    height: 70px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid grey;
+    z-index: 10;
 }
+
+.logo {
+    height: 42px;
+    margin-left: 300px;
+    margin-top: 16px;
+}
+
 a {
     text-decoration: none;
 }
 .top-navigation ul li a {
      color: #838994;
-    
+    font-size: 17px;
 }
 
 .top-navigation .links {
     float: right;
     color: #838994;
-    font-size: 18px;
-    margin-top: 15px;
-    margin-right: 155px;
-    -webkit-font-smoothing: antialiased;
+    font-size: 19x;
+    margin-top: 25px;
+    margin-right: 140px;
 }
 .top-navigation .links li {
     display: inline-block;
-    margin-left: 25px;
-    list-style-type: none;
+    margin-left: 30px
 }
-.top-navigation .links .active {
+.top-navigation .links li .active {
     color: #4c5058;
     font-weight: 900;
 }
@@ -55,6 +56,8 @@ a {
     cursor: pointer;
     color: #333333;
 }
+
+/* Introduction Section */
 .introduction {
     background-image: url('../img/first-background.jpg');
     background-position: center bottom;
@@ -64,18 +67,18 @@ a {
     overflow: auto;
 }
 .introduction h1 {
-    margin-top: 215px;
+    margin-top: 235px;
     font-size: 49px;
 }
-.introduction h3 {
+.introduction p {
     margin-top: -20px;
     font-size: 25px;
     font-weight: normal;
 }
-.introduction h1, h3 {
+.introduction h1, p {
     text-align: center;
     color: white;
-    font-weight: 300;
+    font-weight: normal;
 }
 .button {
     position: absolute;
@@ -86,7 +89,7 @@ a {
     text-align: center;
     display: inline-block;
     font-size: 22px;
-    top: 445px;
+    top: 428px;
     left: 605px;
     color: white;
     cursor: pointer;   
@@ -94,20 +97,33 @@ a {
 .button:hover {
     background-color: orangered;    
 }
-.content h2 {
+
+/* Introduction Section */
+.cases-content, h2 {
     text-align: center;
     font-size: 45px;
     font-weight: normal;
-    padding-top: 100px;
-    
+    padding-top: 50px;
 }
-.icons {
-    height: 150px;
-    width: 127px;
+
+.icons li {
     display: inline-block;
+    margin: 0 5px 0 5px;
 }
-.caption {
+
+.icon-image {
+    width: 150px;
+}
+
+h3 {
+    color: black;
     font-size: 26px;
+    font-weight: normal;
+}
+/* Footer Section */      
+footer {
+    text-align: center;
+    border-top: 3px solid black;
 }
 
 
