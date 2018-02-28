@@ -1,12 +1,18 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }	
 body {
     background-color: white;
     font-family: 'Roboto', sans-serif;
+}
+.content {
+    width: 60%;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 ul {
 	list-style: none;
@@ -22,11 +28,14 @@ ul {
     border-bottom: 1px solid grey;
     z-index: 10;
 }
+.top-navigation > .content {
+    height: 70px;
+}
+
 
 .logo {
-    height: 42px;
-    margin-left: 300px;
-    margin-top: 16px;
+    height: 70px;
+    width: 26px;
 }
 
 a {
@@ -42,7 +51,6 @@ a {
     color: #838994;
     font-size: 19x;
     margin-top: 25px;
-    margin-right: 140px;
 }
 .top-navigation .links li {
     display: inline-block;
@@ -62,9 +70,10 @@ a {
     background-image: url('../img/first-background.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-size: 118% 110%;
+    background-size: cover;
     height: 750px;
     overflow: auto;
+    
 }
 .introduction h1 {
     margin-top: 235px;
@@ -75,22 +84,17 @@ a {
     font-size: 25px;
     font-weight: normal;
 }
-.introduction h1, p {
+.introduction {
     text-align: center;
     color: white;
     font-weight: normal;
 }
 .button {
-    position: absolute;
     background-color: #f15a29;
     border-style: none;
     border-radius: 4px;
     padding: 18px 35px;
-    text-align: center;
-    display: inline-block;
     font-size: 22px;
-    top: 428px;
-    left: 605px;
     color: white;
     cursor: pointer;   
 }
@@ -99,16 +103,30 @@ a {
 }
 
 /* Introduction Section */
-.cases-content, h2 {
+.cases {
+    padding-bottom: 80px;
+}
+
+.content h2 {
+    font-size: 45px;
+    font-weight: normal;
+    
+}
+
+.cases > .content {
     text-align: center;
     font-size: 45px;
     font-weight: normal;
     padding-top: 50px;
+    margin-top: 7.85rem; 
 }
 
+.icons {
+    padding: 0;
+}
 .icons li {
     display: inline-block;
-    margin: 0 5px 0 5px;
+    width: 32%;
 }
 
 .icon-image {
@@ -123,7 +141,24 @@ h3 {
 /* Footer Section */      
 footer {
     text-align: center;
-   
 }
+
+.icon-circle {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 17px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+}
+.icon-circle {
+    display: inline-block;
+    margin: 10px;
+}
+
 
 
