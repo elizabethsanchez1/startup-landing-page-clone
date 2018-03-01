@@ -143,22 +143,35 @@ footer {
     text-align: center;
 }
 
-.icon-circle {
-    border: 1px solid black;
-    border-radius: 50%;
+.icon-container li {
+    border: 1px solid gray;
+    border-radius: 30px;
     width: 50px;
     height: 50px;
     padding: 17px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
 }
 
 hr {
     border: 0;
     border-top: 1px solid #eaebec;
 }
-.icon-circle {
-    display: inline-block;
-    margin: 10px;
+.twitter {
+    color:#55acee;
+}
+.facebook {
+    color: #4c66a4;
+}
+.instagram {
+    color: #3f729b;
 }
 
+.copyright {
+    font-size: 14.4px;
+    color: #838994;
+    font-weight: 300;
+}
 
 
